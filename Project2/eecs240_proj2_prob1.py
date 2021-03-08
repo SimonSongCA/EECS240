@@ -7,6 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/17y1z48BYJ5Mkiq5iUK_m4J-6BjliRJxc
 """
 
+# Problem 1 - (a)
+# Situation1:(α = 0.3)
 import numpy
 import matplotlib.pyplot as plt
 
@@ -32,6 +34,8 @@ plt.ylabel('Value')
 plt.plot(Y)
 plt.show()
 
+# Problem 1 - (a)
+# Situation2:(α = 0.95)
 import numpy
 import matplotlib.pyplot as plt
 
@@ -57,6 +61,8 @@ plt.ylabel('Value')
 plt.plot(Y)
 plt.show()
 
+# Problem 1 - (b)
+# a = 0.3
 import numpy
 import matplotlib.pyplot as plt
 from statsmodels.graphics.tsaplots import plot_acf
@@ -81,6 +87,8 @@ while i <= N-1:
 plot_acf(Y)
 plt.show()
 
+# Problem 1 - (b)
+# a = 0.95
 import numpy
 import matplotlib.pyplot as plt
 from statsmodels.graphics.tsaplots import plot_acf
@@ -106,6 +114,8 @@ while i <= N-1:
 plot_acf(Y)
 plt.show()
 
+# Problem 1 - (c)
+# a = 0.3
 import numpy
 import matplotlib.pyplot as plt
 from scipy import signal
@@ -134,6 +144,8 @@ freqs, P_xx = signal.periodogram(Y, samp, scaling = 'density')
 plt.plot(freqs, P_xx)
 plt.show()
 
+# Problem 1 - (c)
+# a = 0.95
 import numpy
 import matplotlib.pyplot as plt
 from scipy import signal
